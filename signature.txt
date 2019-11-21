@@ -1,0 +1,4 @@
+def sum_new(*x):
+    ret = 0
+    for element in x: ret +=element
+    return ret
